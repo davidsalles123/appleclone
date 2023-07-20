@@ -1,0 +1,101 @@
+.menu {
+    background: rgba(251, 251, 253, .8);
+    backdrop-filter: saturate(180%) blur(20px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+  }
+  
+  
+  .bg-secondary-light {
+    background-color: #FBFBFD;
+  }
+  
+  h1 {
+    font-size: 51px !important;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 40px !important;
+    }
+  }
+  
+  header {
+    background-image: url(img/macbook.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 550px;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      background-image: url(img/macbook-mobile.png);
+    }
+  }
+  
+  
+  #visionpro {
+    background-color: #FBFBFD;
+    background-image: url(img/visionpro.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 450px;
+  }
+  
+  #iphone {
+    background-image: url(img/iphone.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    color: white;
+  }
+  
+  #studio {
+    background-image: url(img/studio.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 580px;
+  }
+  
+  #pro {
+    background-image: url(img/pro.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 580px;
+  }
+  
+  #tradein {
+    background-image: url(img/tradein.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 580px;
+  }
+  
+  #watch {
+    background-image: url(img/watch.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 580px;
+  }
+  
+  #equity {
+    background-image: url(img/equity.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 580px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  
+  }
+  
+  #card {
+    background-image: url(img/card.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 580px;
+  }
